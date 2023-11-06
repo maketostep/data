@@ -1,0 +1,14 @@
+{
+  "name": "pointsproject",
+  "version": "1.0.0",
+  "description": "junior project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "junior"
+  ],
+  "author": "maketoCODE",
+  "license": "ISC"
+}

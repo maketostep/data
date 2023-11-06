@@ -1,0 +1,65 @@
+@import url(/public/button.css);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    opacity: 0.3;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    opacity: 0.5;
+
+    transition: opacity .2s linear;
+}
+
+.enter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgb(165, 226, 226);
+}
+
+.form {
+    margin-bottom: 160px;
+    margin-top: auto;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    /* background-color: #4CAF50; */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .btn {
+    background-color: #4CAF50
+} */
+
+input {
+    width: 50%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
